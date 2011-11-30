@@ -12,7 +12,7 @@ class S3StaticSiteBaker
 		$this->webFiles = array();
 		$this->phpFiles = array();
 		
-		$this->ignoreFiles = array('.' , '..', '.DS_Store', '.svn' ); 
+		$this->ignoreFiles = array('.' , '..', '.DS_Store', '.svn', '.git'); 
 	}
 	
 	function addStaticFolder($localFolder,$remoteFolder,$compressCSSAndJS = true)
