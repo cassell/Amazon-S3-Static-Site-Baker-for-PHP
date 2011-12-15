@@ -1,5 +1,5 @@
 
-This project takes a config file and converts and entire PHP site into static html and uploads it to Amazon S3.
+This project takes a config file and converts and entire PHP site into static html and uploads it to Amazon S3 for hosting.
 
 Usage:
 
@@ -8,6 +8,4 @@ php -f example_bake.php
 or
 
 php -f bake.php www.example.com.php
-
-
-You could probably adapt this to use and static host.
+(if you have multiple sites you want to bake)
